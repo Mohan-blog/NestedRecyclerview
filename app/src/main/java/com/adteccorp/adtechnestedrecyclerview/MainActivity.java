@@ -1,6 +1,7 @@
 package com.adteccorp.adtechnestedrecyclerview;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -11,6 +12,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     RecyclerView recyclerView;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
